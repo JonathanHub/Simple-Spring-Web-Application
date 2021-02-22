@@ -1,14 +1,14 @@
 # Spring Web - Basic
 
 Environment:
-Install Java 11
-Install Maven 3.6.3
-Install Git 2.3
-Install <b>IntelliJ 2020.3 IDEA</b> or <b>Visual Studio Code</b>
+- Install Java 11
+- Install Maven 3.6.3
+- Install Git 2.3
+- Install <b>IntelliJ 2020.3 IDEA</b> or <b>Visual Studio Code</b>
 
 Basic codes:
--Use start.spring.io to initializr boilplate and include dependency with Spring Web
--Unzip it to loacl folder
+- Use start.spring.io to initializr boilplate and include dependency with Spring Web
+- Unzip it to loacl folder
 
 Code changes:
 - Add Controller with RquestMapping for "/" 
