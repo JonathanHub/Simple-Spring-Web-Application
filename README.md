@@ -1,4 +1,4 @@
-# Spring Web - Basic
+# Simple Spring Web Application
 
 Environment:
 - Install Java 11
