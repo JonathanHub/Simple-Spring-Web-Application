@@ -1,5 +1,5 @@
 # Spring Web - Basic
 
-<b>IntelliJ 2020.3 IDEA Edu </b>
+<b>IntelliJ 2020.3 IDEA</b>
 or 
-<b>Visual Studio Code with Plugins</b>
+<b>Visual Studio Code</b>
