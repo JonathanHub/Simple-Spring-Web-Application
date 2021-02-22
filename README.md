@@ -9,6 +9,7 @@
 ## Basic codes:
 - Use https://start.spring.io/ to initializr boilerplate and include dependency with Spring Web
 - Unzip it to local folder
+- Open in IntelliJ
 
 ## Code changes:
 - Add @RestController with @RequestMapping for "/" 
