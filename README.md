@@ -14,6 +14,10 @@
 ## Code changes:
 - Add @RestController with @RequestMapping for "/" 
 
+## Run jar and test in browser
+- java -jar ./SimpleWebApp-0.0.1-SNAPSHOT.jar
+- Check localhost:8080 and see "Simple Controller mapping" output 
+
 ## Issues and walkaround: 
 - Build .jar, when run 'java -jar *.jar' got Error (Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication or no main manifest attribute). 
 -  Option 1: https://www.youtube.com/watch?v=wPGSas_f0ts (IntelliJ setup in details) - Basically File->Project Structure->Artifacts-> + -> Jar -> Empty -> click .jar -> Add Manifest file and main class -> + (output Layout) -> add Module output -> add library files -> OK -> Build -> Rebuild Project -> Build Artifact -> * -> Rebuild
