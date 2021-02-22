@@ -1,24 +1,24 @@
 # Simple Spring Web Application
 
-## Environment:
+## Environment
 - Install Java 11
 - Install Maven 3.6.3
 - Install Git 2.3
 - Install <b>IntelliJ 2020.3 IDEA</b> or <b>Visual Studio Code</b>
 
-## Basic codes:
+## Basic codes
 - Use https://start.spring.io/ to initializr boilerplate and include dependency with Spring Web
 - Unzip it to local folder
 - Open in IntelliJ
 
-## Code changes:
+## Code changes
 - Add @RestController with @RequestMapping for "/" 
 
 ## Run jar and test in browser
 - java -jar ./SimpleWebApp-0.0.1-SNAPSHOT.jar
 - Check localhost:8080 and see "Simple Controller mapping" output 
 
-## Issues and walkaround: 
+## Issues and walkaround 
 - Build .jar, when run 'java -jar *.jar' got Error (Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication or no main manifest attribute). 
 -  Option 1: https://www.youtube.com/watch?v=wPGSas_f0ts (IntelliJ setup in details) - Basically File->Project Structure->Artifacts-> + -> Jar -> Empty -> click .jar -> Add Manifest file and main class -> + (output Layout) -> add Module output -> add library files -> OK -> Build -> Rebuild Project -> Build Artifact -> * -> Rebuild
 -  Option 1: is to make sure Manifest and main class are all included properly in IntelliJ Project 
