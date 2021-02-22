@@ -7,7 +7,7 @@
 - Install <b>IntelliJ 2020.3 IDEA</b> or <b>Visual Studio Code</b>
 
 ## Basic codes:
-- Use start.spring.io to initializr boilerplate and include dependency with Spring Web
+- Use https://start.spring.io/ to initializr boilerplate and include dependency with Spring Web
 - Unzip it to local folder
 
 ## Code changes:
